@@ -1,0 +1,241 @@
+
+html
+{
+  background-image:url("bg_img.gif"); 
+  
+  background-repeat:repeat-x; 
+
+  background-attachment:fixed; 
+
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+  padding-left:110px;
+   padding-top:30px;
+margin:auto;
+  
+}
+
+a:link {text-decoration: none}
+a:active {
+    background: #ffd800;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+#header1
+{
+
+  background-image:url('images/page_2/2.jpg');
+  
+  
+  background-repeat:repeat-x;
+
+
+  background-position-x:left;
+  background-position-y:top;
+
+
+  background-color:white;
+
+
+ 
+ width:600px; 
+ height:130px;
+
+ color:black;
+ font-family:tahoma,serif; 
+ font-size:20px;
+
+ margin-left:100px;
+
+
+ padding-left:300px;
+ padding-top:15px;
+}
+
+
+
+
+
+
+#header
+{
+ background-color:#efefef;
+  background-image:url('images/page_one/store_logo.jpg');
+  
+  
+  background-repeat:no-repeat;
+
+
+  background-position-x:left;
+  background-position-y:top;
+
+
+
+
+ 
+ width:600px; 
+ height:80px;
+
+ color:black;
+ font-family:tahoma,serif; 
+ font-size:20px;
+
+ margin-left:100px;
+
+
+ padding-left:300px;
+ padding-top:15px;
+}
+
+
+
+
+
+
+
+
+
+#content
+{
+
+ color:black;
+ font-size:14px;
+
+
+ margin-left:100px;
+
+ width:900px;
+
+ height:auto; 
+
+ background-color:white;
+  
+
+}
+
+
+
+
+
+
+
+
+
+.introduction
+{
+  color:orange;
+  text-decoration:none;
+}
+.introduction:hover
+{
+  color:blue;
+  text-decoration:underline;
+  font-weight:bold;
+}
+
+
+
+
+
+
+#footer
+{
+ color:black;
+ font-size:14px;
+
+
+ margin-left:100px;
+
+ width:880px; 
+
+ height:40px;
+
+ background-color:#efefef;
+  
+
+ padding-top:10px;
+ padding-left:20px;
+}
+
+
+
+
+
+
+
+
+
+#footer a
+{
+
+  text-decoration:none;
+  color:blue;
+}
+
+
+
+
+
+
+
+.Payment 
+{
+
+   margin-left:100px;
+   width:auto;
+   height:auto;
+}
+
+.Payment td
+{
+  padding:20px;
+}
+
+
+
+
+
+
+
+
+
+#MyTable
+{
+ width:100%;
+ border-collapse:collapse;
+}
+
+#MyTable th
+{
+  border:1px solid #98bf21;
+  font-size:1.1em;
+  text-align:left;
+  padding-top:5px;
+  padding-bottom:4px;
+  background-color:#A7C942;
+  color:#ffffff;
+}
+
+#MyTable td
+{
+  font-size:1em;
+  border:1px solid #98bf21;
+  padding:3px 7px 2px 7px;
+}
+
+
+
+#MyTable td:hover
+{
+  font-size:1em;
+  color:red;
+  border:1px solid #98bf21;
+  padding:3px 7px 2px 7px;
+  background-color:#efefef;
+}

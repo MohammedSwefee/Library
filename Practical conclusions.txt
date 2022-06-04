@@ -1,0 +1,18 @@
+Practical conclusions of mohammed Store :
+---------------------------------------
+
+- We usually use margin to move major containers like table , div ...etc to right or to left
+- padding must be used on div to make your text content looks better
+- hover can be easily implemented but DocType is very decisive
+- Table border collapse can make table css look very nice , but without Doctype, results can be unpredictable
+- using <p> not quite good because its hard to manage when aligning
+- we usually use &nbsp; to crate white spaces between html elements like a , p , span ..etc , note that &nbsp; does not work with tables or div because its default positioning is absolute
+- the styles that are used frequently on different pages are put in css file , meanwhile simple styling can be inlined in the same pages
+- we have to specify major styles in the html or body selecters in css external file , such as default font family of the page ...etc
+- padding can be very tricky in changing the width and height values of elements therefore we have to be very careful in using padding properties
+- " class properties inheritence " is a very simple technique that is used to define styles for elements with in major container element , like Table th , Table td , Class a,Class p , ID div ...etc
+- We need to study harder the referencing technique of images , pdf files , text files and any other type of files , and we need to know very well how to point to the location of any file inside the root folder of our website
+- with full understanding of css properties and their possible values , we can create very advanced website styling easily and quickly
+
+
+Try to fully understand this example and rebulid it in your way and your very personal taste
